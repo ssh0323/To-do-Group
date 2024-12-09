@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="312sp"
+    android:layout_height="388sp"
+    android:background="@drawable/loginh"
+    android:backgroundTint="#FFDDAE"
+    android:orientation="vertical"
+    app:circularflow_defaultRadius="9dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pretendard_black"
+            android:gravity="center"
+            android:text="nona"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="217dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="47dp"
+            android:backgroundTint="#FBFBFB"
+            android:gravity="center"
+            android:hint="E-Mail"
+
+            android:textColorHint="#C9C9C9"
+            app:boxBackgroundColor="#FBFBFB"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="6dp"
+            app:boxCornerRadiusBottomStart="6dp"
+            app:boxCornerRadiusTopEnd="6dp"
+            app:boxCornerRadiusTopStart="6dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_id"
+                android:layout_width="217dp"
+                android:layout_height="31dp"
+                android:fontFamily="@font/pretendard_black"
+                android:gravity="center"
+                android:textSize="12sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="217dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="47dp"
+            android:backgroundTint="#FBFBFB"
+            android:gravity="center"
+            android:hint="Password"
+            android:textColorHint="#C9C9C9"
+
+            app:boxBackgroundColor="#FBFBFB"
+            app:boxBackgroundMode="filled"
+            app:boxCornerRadiusBottomEnd="6dp"
+            app:boxCornerRadiusBottomStart="6dp"
+            app:boxCornerRadiusTopEnd="6dp"
+            app:boxCornerRadiusTopStart="6dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="31dp"
+                android:backgroundTint="#FBFBFB"
+                android:fontFamily="@font/pretendard_black"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textSize="12sp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <android.widget.Button
+            android:id="@+id/btnLogin2"
+            android:layout_width="81dp"
+            android:layout_height="26dp"
+
+            android:layout_marginLeft="184dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginRight="47dp"
+            android:background="@drawable/btnlogin2"
+            android:fontFamily="@font/pretendard_black"
+            android:text="로그인"
+            android:textColor="#000000"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/pretendard_regular"
+            android:shadowColor="#2B2D30"
+            android:text="계정이 없으신가요?"
+            android:textColor="#403F3F"
+            android:textSize="9dp" />
+
+        <android.widget.Button
+            android:id="@+id/btnRegister"
+            android:layout_width="217dp"
+            android:layout_height="29dp"
+
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btnregister"
+            android:fontFamily="@font/pretendard_medium"
+            android:text="계정 등록하기"
+            android:textColor="#403F3F"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
