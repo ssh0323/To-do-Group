@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#000000"
+    android:background="#FEF9F2"
+    android:backgroundTint="#FEF9F2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
