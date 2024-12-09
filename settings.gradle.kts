@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "My Application32421342"
+rootProject.name = "nona_p"
 include(":app")
+ 
